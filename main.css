@@ -1,0 +1,37 @@
+#cabeçalho{
+  width: 100%;
+  }
+
+#linha{
+  background-color: black;
+}
+  
+.container {
+  display: flex;
+}
+
+.imagem {
+  width: 600px; 
+  height: auto; 
+}
+
+.texto {
+  margin-left: 20px; 
+  font-size: larger;
+}
+  
+  
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+    
+.links li{
+  display: inline-block;
+}
+    
+.text{
+  font-size: larger;
+}
