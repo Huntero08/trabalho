@@ -1,11 +1,29 @@
 #cabeçalho{
   width: 100%;
+  background-color: white;
   }
 
-#linha{
-  background-color: black;
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
+
+#fundo{
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/t1/7278150-fundo-escuro-abstrato-com-efeito-claro-vetor.jpg'); 
+	background-size: cover;
+  background-repeat: no-repeat;
+	backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%;
+}
+
   
+.cabeçalho2{
+  background-color: white;
+}
+
 .container {
   display: flex;
 }
@@ -18,8 +36,12 @@
 .texto {
   margin-left: 20px; 
   font-size: larger;
+  color: white;
 }
-  
+
+.T1{
+  color: white;
+}
   
 header{
   width: 100%;
@@ -34,5 +56,6 @@ header{
     
 .text{
   font-size: larger;
+  color: white;
 }
 
